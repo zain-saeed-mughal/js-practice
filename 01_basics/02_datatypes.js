@@ -1,7 +1,7 @@
  "use strict";         
 // alert("Hello, World!");
 
-console.log("ZAIN SAEED MUGHAL")
+console.log("Hello, World!");
 
 let name = "Zain Saeed Mughal"
 let age = 20
