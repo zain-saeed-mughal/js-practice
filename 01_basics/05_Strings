@@ -1,0 +1,7 @@
+const name = "Zain Saeed Mughal";
+const repoCount = 30;  
+
+// not recommended
+console.log(name + repoCount + "VALUE");
+// recommended 
+console.log(`my name is ${name} and I have ${repoCount} repositories`);
