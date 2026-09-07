@@ -5,3 +5,29 @@ const repoCount = 30;
 console.log(name + repoCount + "VALUE");
 // recommended 
 console.log(`my name is ${name} and I have ${repoCount} repositories`);
+
+const gameName = new String("Zain Saeed Mughal"); // String Object
+console.log(gameName[2]);
+console.log(gameName.__proto__);
+
+console.log(gameName.length);
+console.log(gameName.toUpperCase());
+console.log(gameName.charAt(3));
+console.log(gameName.indexOf('l'));
+
+// gothrough how many methods are available in string object
+
+const newString = gameName.substring(0, 3);
+console.log(newString);
+
+const anotherString = gameName.slice(-7, 2);
+console.log(anotherString);
+
+const newString2 = "    Zain Saeed Mughal    ";
+console.log(newString2);
+console.log(newString2.trim());
+
+const url = "https://www.zaindev%30balitech.com";
+console.log(url.replace("%30", "-"));
+console.log(url.includes("zaindev"));
+console.log(url.split('-'));
